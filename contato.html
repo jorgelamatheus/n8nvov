@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <title>Contato — Ver Ouvir Vendas</title>
+  <title>Contato — IA_VOV</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <style>
@@ -79,7 +79,7 @@
 <body>
 
   <div class="container">
-    <h1>Fale com a VOV</h1>
+    <h1>Fale com a IA_VOV</h1>
 
     <form id="vovForm">
       <label>Nome</label>
@@ -109,7 +109,7 @@
 
       try {
         const response = await fetch(
-          "https://n8n-vov.onrender.com/webhook/pedido-show",
+          "https://n8n-vov.onrender.com/webhook/pedido-show"
           {
             method: "POST",
             body: formData
